@@ -33,6 +33,26 @@ const Projects = () => {
       repo: "https://github.com/ALOKKUMARSAW/DoctorAppoinmentSystem",
       image: "/Doctor.png", // Image path relative to the public folder
     },
+    {
+      title: "Employee Management System",
+      description:
+        "This Employee Management System is a full-stack application built with Java, Spring Boot, and MySQL. It allows users to manage employee records, including adding, updating, and deleting employee information. The system features a responsive UI built with Thymeleaf and provides RESTful APIs for efficient data handling.",
+      shortDescription:
+        "",
+      //liveDemo: "https://docterappointment.netlify.app/",
+      repo: "https://github.com/ALOKKUMARSAW/Employee-Management-Sysrem",
+      image: "/Employee.png", // Image path relative to the public folder
+    },
+    {
+      title: "Registration Login Authenticity",
+      description:
+        "This project is a full-stack application built with Java, Spring Boot, and MySQL. It allows users to register, log in, and manage their accounts securely. The system features a responsive UI built with Thymeleaf and provides RESTful APIs for efficient data handling.",
+      shortDescription:
+        " A secure registration and login system with user authentication and account management.",
+      //liveDemo: "https://docterappointment.netlify.app/",
+      repo: "https://github.com/ALOKKUMARSAW/registration-login-authenticity",
+      image: "", // Image path relative to the public folder
+    },
   ];
 
   // Initialize AOS for animation
