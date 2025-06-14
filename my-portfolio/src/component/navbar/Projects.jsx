@@ -29,7 +29,7 @@ const Projects = () => {
         "The Doctor Appointment System is a full-stack web application developed using Java, Spring Boot, and MySQL. It enables users to book appointments with doctors, view available slots, and manage their appointments. The backend is built with Spring Boot and utilizes MySQL for data storage, while the frontend uses Thymeleaf to render a dynamic and responsive interface. The app improves performance, user interaction, and overall experience through efficient RESTful API integration and UI design.",
       shortDescription:
         "It enables users to book appointments with doctors, view available slots, and manage their appointments.",
-      liveDemo: "https://app.netlify.com/teams/alokkumarsaw/projects",
+      liveDemo: "https://docterappointment.netlify.app/",
       repo: "https://github.com/ALOKKUMARSAW/Doctor-Appointment-System",
       image: "/Doctor.png", // Image path relative to the public folder
     },
