@@ -19,7 +19,7 @@ const Projects = () => {
       description:
         "EduTrack-Pro is a comprehensive e-learning platform built with Java, Spring Boot, and MySQL. It offers a wide range of courses in various domains, including technology, business, and personal development. The platform provides a user-friendly interface for students to explore courses, enroll in them, and track their progress. It also includes a robust admin panel for managing courses, users, and other administrative tasks. EduTrack-Pro is designed to be scalable and maintainable, with a focus on providing a seamless learning experience for students.",
       shortDescription: "An e-learning platform for students to enroll in courses and track their progress.",
-      liveDemo: "",
+      liveDemo: "https://edutractpro.netlify.app/",
       repo: "https://github.com/ALOKKUMARSAW/EduTech-Pro",
       image: "/EduTrack.png", // Image path relative to the public folder
     },
@@ -29,7 +29,7 @@ const Projects = () => {
         "The Doctor Appointment System is a full-stack web application developed using Java, Spring Boot, and MySQL. It enables users to book appointments with doctors, view available slots, and manage their appointments. The backend is built with Spring Boot and utilizes MySQL for data storage, while the frontend uses Thymeleaf to render a dynamic and responsive interface. The app improves performance, user interaction, and overall experience through efficient RESTful API integration and UI design.",
       shortDescription:
         "It enables users to book appointments with doctors, view available slots, and manage their appointments.",
-      liveDemo: "",
+      liveDemo: "https://app.netlify.com/teams/alokkumarsaw/projects",
       repo: "https://github.com/ALOKKUMARSAW/Doctor-Appointment-System",
       image: "/Doctor.png", // Image path relative to the public folder
     },
