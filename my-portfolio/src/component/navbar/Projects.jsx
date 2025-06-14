@@ -30,7 +30,7 @@ const Projects = () => {
       shortDescription:
         "It enables users to book appointments with doctors, view available slots, and manage their appointments.",
       liveDemo: "https://docterappointment.netlify.app/",
-      repo: "https://github.com/ALOKKUMARSAW/Doctor-Appointment-System",
+      repo: "https://github.com/ALOKKUMARSAW/DoctorAppoinmentSystem",
       image: "/Doctor.png", // Image path relative to the public folder
     },
   ];
