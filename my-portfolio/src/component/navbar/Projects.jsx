@@ -19,7 +19,7 @@ const Projects = () => {
       description:
         "EduTrack-Pro is a comprehensive e-learning platform built with Java, Spring Boot, and MySQL. It offers a wide range of courses in various domains, including technology, business, and personal development. The platform provides a user-friendly interface for students to explore courses, enroll in them, and track their progress. It also includes a robust admin panel for managing courses, users, and other administrative tasks. EduTrack-Pro is designed to be scalable and maintainable, with a focus on providing a seamless learning experience for students.",
       shortDescription: "An e-learning platform for students to enroll in courses and track their progress.",
-      liveDemo: "https://docterappointment.netlify.app/",
+      liveDemo: "https://edutrack-pro.netlify.app/",
       repo: "https://github.com/ALOKKUMARSAW/EduTech-Pro",
       image: "/EduTrack.png", // Image path relative to the public folder
     },
