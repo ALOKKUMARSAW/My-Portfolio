@@ -1,0 +1,171 @@
+.projects-section {
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+}
+
+.projects-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  animation: gradient-text 2s ease-in-out infinite;
+}
+
+@keyframes gradient-text {
+  0% {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+  }
+  50% {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+  }
+  100% {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+  }
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  overflow: hidden;
+  width: 100%;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-image {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.1);
+}
+
+.project-content {
+  padding: 20px;
+  width: 50%;
+  color: #333;
+}
+
+.project-title {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  color: #2a9d8f; /* Adding a teal color to project titles */
+  font-weight: bold;
+}
+
+.short-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-link {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #0073e6;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.project-link:hover {
+  color: #ff6a00;
+  font-size: large;
+  transform: scale(1.1);
+}
+
+.project-link i {
+  margin-right: 8px;
+}
+
+.project-link.live-demo:hover {
+  color: #28a745;
+}
+
+.project-link.github-repo:hover {
+  color: #64d4f7;
+}
+
+.skill-box {
+  display: inline-block;
+  background-color: #ffb6b9;
+  color: #333;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: scale(1.1);
+  background-color: #ff6a00;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .projects-title {
+    font-size: 1.5rem;
+  }
+
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .project-content {
+    width: 100%;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .short-description {
+    font-size: 1rem;
+  }
+
+  .project-description {
+    font-size: 0.9rem;
+  }
+}
