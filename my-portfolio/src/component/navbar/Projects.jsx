@@ -10,7 +10,7 @@ const Projects = () => {
       description:
         "The Movie Watchlist App is a full-stack web application developed using Java, Spring Boot, OMDB API, Thymeleaf, and H2 Database. It enables users to search, add, and view movies by integrating with the OMDB API. The backend is built with Spring Boot and utilizes H2 for fast in-memory data storage, while the frontend uses Thymeleaf to render a dynamic and responsive interface. The app improves performance, user interaction, and overall experience through efficient RESTful API integration and UI design.",
       shortDescription: "An interactive movie watchlist application.",
-      liveDemo: "",
+      //liveDemo: "",
       repo: "https://github.com/ALOKKUMARSAW/MovieWatchList-App",
       image: "/Movie.png", // Image path relative to the public folder
     },
@@ -19,7 +19,7 @@ const Projects = () => {
       description:
         "EduTrack-Pro is a comprehensive e-learning platform built with Java, Spring Boot, and MySQL. It offers a wide range of courses in various domains, including technology, business, and personal development. The platform provides a user-friendly interface for students to explore courses, enroll in them, and track their progress. It also includes a robust admin panel for managing courses, users, and other administrative tasks. EduTrack-Pro is designed to be scalable and maintainable, with a focus on providing a seamless learning experience for students.",
       shortDescription: "An e-learning platform for students to enroll in courses and track their progress.",
-      liveDemo: "https://edutractpro.netlify.app/",
+      liveDemo: "https://docterappointment.netlify.app/",
       repo: "https://github.com/ALOKKUMARSAW/EduTech-Pro",
       image: "/EduTrack.png", // Image path relative to the public folder
     },
