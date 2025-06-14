@@ -8,8 +8,8 @@ const Projects = () => {
     {
       title: "Movie Watchlist Application",
       description:
-        "The Movie Watchlist App is a full-stack web application developed using Java, Spring Boot, OMDB API, Thymeleaf, and H2 Database. It enables users to search, add, and view movies by integrating with the OMDB API. The backend is built with Spring Boot and utilizes H2 for fast in-memory data storage, while the frontend uses Thymeleaf to render a dynamic and responsive interface. The app improves performance, user interaction, and overall experience through efficient RESTful API integration and UI design.",
-      shortDescription: "An interactive movie watchlist application.",
+        "Built with Java, Spring Boot, Thymeleaf, and H2 Database, this full-stack app lets users search, add, and view movies using the OMDB API. It features a responsive UI, fast in-memory storage, and efficient REST API integration for a smooth user experience.",
+      shortDescription: "A user-friendly web app to search and manage favorite movies.",
       //liveDemo: "",
       repo: "https://github.com/ALOKKUMARSAW/MovieWatchList-App",
       image: "/Movie.png", // Image path relative to the public folder
@@ -17,7 +17,7 @@ const Projects = () => {
     {
       title: "EduTrack-Pro",
       description:
-        "EduTrack-Pro is a comprehensive e-learning platform built with Java, Spring Boot, and MySQL. It offers a wide range of courses in various domains, including technology, business, and personal development. The platform provides a user-friendly interface for students to explore courses, enroll in them, and track their progress. It also includes a robust admin panel for managing courses, users, and other administrative tasks. EduTrack-Pro is designed to be scalable and maintainable, with a focus on providing a seamless learning experience for students.",
+        "EduTrack-Pro is built with Java, Spring Boot, and MySQL. It allows students to explore and enroll in courses, track their progress, and learn at their own pace. The platform also includes an admin panel to manage courses and users, ensuring a smooth and scalable learning experience.",
       shortDescription: "An e-learning platform for students to enroll in courses and track their progress.",
       liveDemo: "https://edutractpro.netlify.app/",
       repo: "https://github.com/ALOKKUMARSAW/EduTech-Pro",
@@ -26,9 +26,9 @@ const Projects = () => {
     {
       title: "Doctor Appointment System",
       description:
-        "The Doctor Appointment System is a full-stack web application developed using Java, Spring Boot, and MySQL. It enables users to book appointments with doctors, view available slots, and manage their appointments. The backend is built with Spring Boot and utilizes MySQL for data storage, while the frontend uses Thymeleaf to render a dynamic and responsive interface. The app improves performance, user interaction, and overall experience through efficient RESTful API integration and UI design.",
+        "Built using Java, Spring Boot, and MySQL, this system allows users to view available slots, book appointments, and manage them efficiently. It features a responsive Thymeleaf interface and optimized REST APIs for a seamless experience across all user roles.",
       shortDescription:
-        "It enables users to book appointments with doctors, view available slots, and manage their appointments.",
+        "A web app to book and manage doctor appointments with dedicated portals for doctors, patients, and admins.",
       liveDemo: "https://docterappointment.netlify.app/",
       repo: "https://github.com/ALOKKUMARSAW/DoctorAppoinmentSystem",
       image: "/Doctor.png", // Image path relative to the public folder

@@ -10,7 +10,7 @@ const About = () => (
       <div className="about-text">
         <h2 className="about-title">About Me</h2>
         <p className="about-description">
-          Hi, I'm Alok Kumar Saw, a passionate and adaptable Full Stack Developer with a strong foundation in web development and a flair for creating dynamic, user-friendly applications. Final Year B.Tech in Computer Science and Engineering from Ramgarh Engineering College (2021-2025).
+          Hello! I'm Alok Kumar Saw, a passionate Full Stack Developer with a strong foundation in Java, Spring Boot, and React. I thrive on creating efficient and scalable web applications that deliver exceptional user experiences. With a keen eye for detail and a commitment to continuous learning, I am always eager to take on new challenges and expand my skill set.
         </p>
         
         <h3 className="skills-title">Technical Skills</h3>
