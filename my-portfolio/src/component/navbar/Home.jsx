@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./navbar.css";
 
 const Home = () => {
+  const roles = ["Full Stack Developer", "Java Developer", "Backend Developer", "Java Full Stack Developer", "Freelancer"];
+  const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
+  const [isFading, setIsFading] = useState(false);
+
+  useEffect(() => {
+    setIsFading(true);
+    const interval = setInterval(() => {
+      setIsFading(false);
+      setTimeout(() => {
+        setCurrentRoleIndex((prevIndex) => (prevIndex + 1) % roles.length);
+        setIsFading(true);
+      }, 500); // Duration of fadeOut animation
+    }, 3000); // Total duration for each role
+    return () => clearInterval(interval);
+  }, [roles.length]);
+
   const handleContact = () => {
     document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
   };
@@ -13,18 +29,20 @@ const Home = () => {
           <h1 className="animated-text">
             Hi, I'm <span>Alok Kumar Saw</span>
           </h1>
-          <h2 className="subtitle">Full Stack Developer</h2>
-          <p className="fade-in description">
-            Passionate about creating efficient and scalable web applications using Java, Spring Boot, and React. 
-            Dedicated to delivering exceptional user experiences through clean code and innovative solutions.
+          <h2 className={`subtitle ${isFading ? 'fade-in' : ''}`}>
+            {roles[currentRoleIndex]}
+          </h2>
+          <p className="slogan-description">
+          Passionate about creating efficient and scalable web applications using Java, Spring Boot, and React. 
+          Dedicated to delivering exceptional user experiences through clean code and innovative solutions.
           </p>
           <div className="cta-buttons">
-            <button className="primary-btn" onClick={handleContact}>
-              Contact Me
-            </button>
-            <a href="#projects" className="secondary-btn">
-              View Projects
+            <a href="/AlokKumarSaw_Resume.pdf" className="primary-btn" download>
+              Download CV
             </a>
+            <button className="secondary-btn" onClick={handleContact}>
+              Hire Me
+            </button>
           </div>
           <div className="social-links">
             <h3 className="section-subtitle">Connect With Me</h3>
@@ -35,7 +53,7 @@ const Home = () => {
                 rel="noopener noreferrer"
                 className="social-link github"
               >
-                <i className="fab fa-github"></i> GitHub
+                <i className="fab fa-github"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/alok-kumar-saw/"
@@ -43,13 +61,13 @@ const Home = () => {
                 rel="noopener noreferrer"
                 className="social-link linkedin"
               >
-                <i className="fab fa-linkedin"></i> LinkedIn
+                <i className="fab fa-linkedin"></i>
               </a>
               <a
                 href="mailto:aloksaw512@gmail.com"
                 className="social-link email"
               >
-                <i className="fas fa-envelope"></i> Email
+                <i className="fas fa-envelope"></i>
               </a>
             </div>
           </div>

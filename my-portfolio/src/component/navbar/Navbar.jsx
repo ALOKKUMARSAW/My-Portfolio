@@ -99,6 +99,11 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li>
+          <a href="/AlokKumarSaw_Resume.pdf" className="download-btn" download>
+            Download CV
+          </a>
+        </li>
       </ul>
     </nav>
   );

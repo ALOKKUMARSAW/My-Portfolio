@@ -16,9 +16,7 @@ const Resume = () => (
               <p className="institution">Ramgarh Engineering College</p>
               <p className="duration">2021 - 2025</p>
               <p className="description">
-              Final-year Computer Science and Engineering student with practical experience in Java, Spring Boot, and full-stack
-development. Skilled in building RESTful APIs and secure web applications. Seeking to apply and enhance my
-skills as a backend or full-stack developer in a growth-oriented environment.
+              Final-year Computer Science and Engineering student with practical experience in Java, Spring Boot, and full-stackdevelopment. Skilled in building RESTful APIs and secure web applications. Seeking to apply and enhance myskills as a backend or full-stack developer in a growth-oriented environment.
               </p>
             </div>
           </div>

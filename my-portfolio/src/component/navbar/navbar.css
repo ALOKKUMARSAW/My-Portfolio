@@ -135,12 +135,22 @@
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+  background: linear-gradient(135deg, #4b0082, #6a5acd, #8a2be2); /* Updated gradient colors */
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite; /* New animation property */
   color: #ffffff;
   display: flex;
   align-items: center;
   padding: 80px 20px;
   margin-bottom: 0;
+  border-bottom: 8px solid transparent; /* Subtle border for separation */
+  border-image: linear-gradient(to right, #4b0082, #8a2be2) 1; /* Gradient border */
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .hero-content {
@@ -173,19 +183,55 @@
   color: #00bcd4;
   margin-bottom: 1.5rem;
   font-weight: 500;
+  animation: fadeOut 0.5s forwards;
+}
+
+.subtitle.fade-in {
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-20px); }
+}
+
+.slogan-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.slogan-description {
+  font-size: 1.1rem;
+  color: #d3d3d3;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  text-align: left;
 }
 
 .description {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #e0e0e0;
+  color: #ffffff;
   margin-bottom: 2rem;
   max-width: 600px;
+  text-align: left;
+  margin: 0;
 }
 
 .cta-buttons {
   display: flex;
   gap: 1rem;
+  justify-content: flex-start;
 }
 
 .primary-btn, .secondary-btn {
@@ -221,6 +267,18 @@
   transform: translateY(-2px);
 }
 
+.cta-buttons .primary-btn {
+  background-color: #00bcd4; /* Teal background for Download CV */
+  border: none;
+  color: white;
+}
+
+.cta-buttons .secondary-btn {
+  background-color: transparent; /* Transparent background for Hire Me */
+  border: 2px solid #00bcd4; /* Teal border for Hire Me */
+  color: #00bcd4;
+}
+
 .profile-container {
   flex: 1;
   display: flex;
@@ -230,11 +288,11 @@
 .profile-photo {
   width: 350px;
   height: 350px;
-  border-radius: 20px;
+  border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #00bcd4;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
+  border: 4px solid transparent; /* Changed border to transparent */
+  box-shadow: 0 0 0 4px #4b0082, 0 0 0 8px #6a5acd, 0 0 0 12px #8a2be2, 0 10px 30px rgba(0, 0, 0, 0.5); /* Glowing gradient effect */
+  transition: transform 0.3s ease, box-shadow 0.6s ease; /* Adjusted transition for smoother glow */
 }
 
 .profile-photo:hover {
@@ -272,8 +330,10 @@
 
 .section-subtitle {
   font-size: 1.8rem;
-  color: #2d2d2d;
+  color: #00bcd4;
   margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-align: center;
 }
 
 .about-description {
@@ -328,45 +388,50 @@
 }
 
 .social-links {
-  margin-top: 3rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .link-icons {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .social-link {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: white;
+  padding: 0; /* Removed padding */
+  border-radius: 0; /* Removed border-radius */
+  background-color: transparent; /* Removed background color */
+  color: white; /* Set icon color to white */
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .social-link i {
-  font-size: 1.2rem;
+  font-size: 2.5rem; /* Increased icon size */
 }
 
 .github {
-  background-color: #333;
+  background-color: transparent; /* Ensure no background */
 }
 
 .linkedin {
-  background-color: #0077b5;
+  background-color: transparent; /* Ensure no background */
 }
 
 .email {
-  background-color: #ea4335;
+  background-color: transparent; /* Ensure no background */
 }
 
 .social-link:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1); /* Scale up on hover */
+  box-shadow: none; /* Removed box-shadow on hover */
+  color: #00bcd4; /* Teal color on hover */
 }
 
 /* Responsive Design */
@@ -631,12 +696,14 @@
   color: #e0e0e0;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .hero-text .link-icons {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .hero-text .social-link {
@@ -786,6 +853,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
+  margin-top: 2rem;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 .project-card {
@@ -818,15 +889,23 @@
 }
 
 .download-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 12px 30px;
-  background-color: #00bcd4;
+  background-color: #00bcd4; /* Teal background for the button */
   color: white;
+  padding: 12px 30px;
   border-radius: 5px;
   text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
   transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: none; /* Ensure no border */
+  cursor: pointer;
+}
+
+.download-btn i {
+  font-size: 1.2rem;
 }
 
 .download-btn:hover {
@@ -1093,15 +1172,6 @@
   background-color: #f8f9fa;
 }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 3rem auto;
-  padding: 0 20px;
-}
-
 .project-card {
   background: #ffffff;
   border-radius: 10px;
@@ -1261,5 +1331,34 @@
   background: #0097a7;
   transform: translateY(-2px) scale(1.05);
   color: #fff;
+}
+
+.timeline-content .description {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.projects-section {
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.section-main-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 40px;
 }
 
