@@ -7,21 +7,24 @@ import Projects from "./component/navbar/Projects";
 import Contact from "./component/navbar/Contact";
 import Statistics from './component/navbar/Statistics'
 import Resume from "./component/navbar/Resume";
+import Footer from './component/navbar/Footer';
 import './App.css'
+
 const App = () => {
   return (
-    <>
+    <div className="App">
       <Navbar />
-      <div className="main-content">
+      <main className="main-content">
         <Home />
         <About />
         <Skills />
         <Projects />
         <Statistics/>
+        <Resume />
         <Contact />
-        <Resume/>
-      </div>
-    </>
+      </main>
+      <Footer />
+    </div>
   );
 };
 

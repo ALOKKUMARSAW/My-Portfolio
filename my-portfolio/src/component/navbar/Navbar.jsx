@@ -27,7 +27,7 @@ const Navbar = () => {
             to="hero"
             smooth={true}
             duration={500}
-            onClick={() => setNavActive(false)} // Close menu on link click
+            onClick={() => setNavActive(false)}
             spy={true}
           >
             Home
@@ -38,7 +38,7 @@ const Navbar = () => {
             to="about"
             smooth={true}
             duration={500}
-            onClick={() => setNavActive(false)} // Close menu on link click
+            onClick={() => setNavActive(false)}
             spy={true}
           >
             About
@@ -49,7 +49,7 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={500}
-            onClick={() => setNavActive(false)} // Close menu on link click
+            onClick={() => setNavActive(false)}
             spy={true}
           >
             Skills
@@ -60,7 +60,7 @@ const Navbar = () => {
             to="projects"
             smooth={true}
             duration={500}
-            onClick={() => setNavActive(false)} // Close menu on link click
+            onClick={() => setNavActive(false)}
             spy={true}
           >
             Projects
@@ -71,7 +71,7 @@ const Navbar = () => {
             to="statistics"
             smooth={true}
             duration={500}
-            onClick={() => setNavActive(false)} // Close menu on link click
+            onClick={() => setNavActive(false)}
             spy={true}
           >
             Statistics
@@ -79,24 +79,24 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            to="contact"
+            to="resume"
             smooth={true}
             duration={500}
-            onClick={() => setNavActive(false)} // Close menu on link click
+            onClick={() => setNavActive(false)}
             spy={true}
           >
-            Contact
+            Resume
           </Link>
         </li>
         <li>
           <Link
-            to="resume"
+            to="contact"
             smooth={true}
             duration={500}
-            onClick={() => setNavActive(false)} // Close menu on link click
+            onClick={() => setNavActive(false)}
             spy={true}
           >
-            Resume
+            Contact
           </Link>
         </li>
       </ul>
