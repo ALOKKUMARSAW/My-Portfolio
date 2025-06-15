@@ -164,13 +164,26 @@
 
 .hero-text {
   flex: 1;
+  margin-bottom: 1rem;
 }
 
 .animated-text {
   font-size: 3.5rem;
   font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.animated-text-static {
+  font-size: 2.5rem; /* Adjusted to be similar to animated-text but slightly smaller for distinction */
+  font-weight: 700;
+  margin-top: 0.5rem; /* Space between the two lines */
   margin-bottom: 1rem;
   line-height: 1.2;
+  color: #ffffff; /* Set color to white */
+  display: block; /* Ensure it's on a new line */
 }
 
 .animated-text span {

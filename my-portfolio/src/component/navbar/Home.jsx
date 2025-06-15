@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 
 const Home = () => {
-  const roles = ["Full Stack Developer", "Java Developer", "Backend Developer", "Java Full Stack Developer", "Freelancer"];
+  const roles = ["Java Developer", "Backend Developer", "Java Full Stack Developer", "Freelancer", "Promt Engineer"];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [isFading, setIsFading] = useState(false);
 
@@ -19,7 +19,7 @@ const Home = () => {
   }, [roles.length]);
 
   const handleContact = () => {
-    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+    document.getElementById("contact").scrollInView({ behavior: "smooth" });
   };
 
   return (
@@ -28,6 +28,9 @@ const Home = () => {
         <div className="hero-text">
           <h1 className="animated-text">
             Hi, I'm <span>Alok Kumar Saw</span>
+          </h1>
+          <h1 className="animated-text">
+            <span>Full Stack Developer</span>
           </h1>
           <h2 className={`subtitle ${isFading ? 'fade-in' : ''}`}>
             {roles[currentRoleIndex]}
