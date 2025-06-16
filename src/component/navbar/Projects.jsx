@@ -17,7 +17,7 @@ const Projects = () => {
       technologies: ["Java", "Spring Boot", "MySQL", "Thymeleaf", "Bootstrap"],
       image: "/EduTrack.png",
       github: "https://github.com/ALOKKUMARSAW/EduTech-Pro",
-      live: "https://edutractpro.netlify.app/"
+      live: "https://coursemanagementsystem5.netlify.app/"
     },
     {
       title: "Doctor Appointment System",
