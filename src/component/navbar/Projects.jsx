@@ -15,7 +15,7 @@ const Projects = () => {
       title: "EduTrack-Pro",
       description: "EduTrack-Pro is built with Java, Spring Boot, and MySQL. It allows students to explore and enroll in courses, track their progress, and learn at their own pace. The platform also includes an admin panel to manage courses and users, ensuring a smooth and scalable learning experience.",
       technologies: ["Java", "Spring Boot", "MySQL", "Thymeleaf", "Bootstrap"],
-      image: "/EduTech-Pro.png",
+      image: "/EduTrack-Pro.png",
       github: "https://github.com/ALOKKUMARSAW/EduTech-Pro",
       live: "https://coursemanagementsystem5.netlify.app/"
     },
