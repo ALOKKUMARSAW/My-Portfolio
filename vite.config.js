@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'custom-dist', // Change output directory
-    assetsDir: 'static-assets', // Customize assets folder
-    sourcemap: true, // Enable source maps
+    outDir: 'dist',             // ✅ Netlify expects this
+    assetsDir: 'static-assets', // optional: customize assets folder
+    sourcemap: true             // optional: enable source maps
   },
 })
