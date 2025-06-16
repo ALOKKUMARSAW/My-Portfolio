@@ -19,7 +19,7 @@ const Home = () => {
   }, [roles.length]);
 
   const handleContact = () => {
-    document.getElementById("contact").scrollInView({ behavior: "smooth" });
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
   };
 
   return (
