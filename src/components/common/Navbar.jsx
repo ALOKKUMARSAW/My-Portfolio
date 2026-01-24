@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import "./navbar.css";
+import "@styles/navbar.css";
+
+const RESUME_LINK = "https://drive.google.com/uc?export=download&id=1SnVGW5qfsaTPkWyqRbAm3is5SfErBbt1";
 
 const Navbar = () => {
   const [navActive, setNavActive] = useState(false);
@@ -42,6 +44,17 @@ const Navbar = () => {
             spy={true}
           >
             About
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="services"
+            smooth={true}
+            duration={500}
+            onClick={() => setNavActive(false)}
+            spy={true}
+          >
+            Services
           </Link>
         </li>
         <li>
@@ -100,7 +113,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <a href="/AlokKumarSaw_Resume.pdf" className="download-btn" download>
+          <a 
+            href={RESUME_LINK} 
+            className="download-btn" 
+            download="AlokKumarSaw_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Download CV
           </a>
         </li>

@@ -1,14 +1,14 @@
 import React from "react";
-import Navbar from "./component/navbar/Navbar";
-import Home from "./component/navbar/Home";
-import About from "./component/navbar/About";
-import Skills from "./component/navbar/Skills";
-import Projects from "./component/navbar/Projects";
-import Contact from "./component/navbar/Contact";
-import Statistics from './component/navbar/Statistics'
-import Resume from "./component/navbar/Resume";
-import Footer from './component/navbar/Footer';
-import './App.css'
+import Navbar from "@components/common/Navbar";
+import Home from "@components/sections/Home";
+import About from "@components/sections/About";
+import Services from "@components/sections/Services";
+import Skills from "@components/sections/Skills";
+import Projects from "@components/sections/Projects";
+import Contact from "@components/sections/Contact";
+import Footer from '@components/common/Footer';
+import "@styles/navbar.css";
+import "@styles/hero.css";
 
 const App = () => {
   return (
@@ -17,10 +17,9 @@ const App = () => {
       <main className="main-content">
         <Home />
         <About />
+        <Services />
         <Skills />
         <Projects />
-        <Statistics/>
-        <Resume />
         <Contact />
       </main>
       <Footer />
