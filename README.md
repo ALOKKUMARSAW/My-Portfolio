@@ -31,26 +31,37 @@ A modern, responsive portfolio website built with React, Vite, and Chakra UI sho
 ## Project Structure
 
 ```
-my-portfolio/
-├── public/                     # Static assets
-│   ├── images/                # Project screenshots and profile images
-│   └── documents/             # Resume and other documents
-├── src/
-│   ├── components/
-│   │   ├── common/           # Reusable components (Navbar, Footer)
-│   │   └── sections/         # Page sections (Home, About, Projects, etc.)
-│   ├── assets/
-│   │   ├── images/           # Image assets
-│   │   └── documents/        # PDF documents
-│   ├── styles/               # CSS files
-│   ├── hooks/                # Custom React hooks
-│   ├── utils/                # Utility functions
-│   ├── data/                 # Static data and constants
-│   ├── App.jsx               # Main App component
-│   └── main.jsx              # Application entry point
-├── package.json
-├── vite.config.js
-└── README.md
+My-Portfolio/
+├── .git/                     
+├── .gitignore           
+├── README.md              
+├── dist/                       
+├── eslint.config.js          
+├── index.html             
+├── node_modules/               
+├── package-lock.json        
+├── package.json             
+├── public/                  
+│   ├── AlokSaw.png         
+│   └── netlify.toml        
+├── src/                       
+│   ├── App.jsx             
+│   ├── components/             
+│   │   ├── common/           
+│   │   │   ├── Footer.jsx  
+│   │   │   └── Navbar.jsx   
+│   │   └── sections/          
+│   │       ├── About.jsx    
+│   │       ├── Contact.jsx   
+│   │       ├── Home.jsx      
+│   │       ├── Projects.jsx 
+│   │       ├── Services.jsx 
+│   │       └── Skills.jsx   
+│   ├── main.jsx              
+│   └── styles/                 
+│       ├── hero.css        
+│       └── navbar.css        
+└── vite.config.js          
 ```
 
 ## Getting Started
@@ -78,7 +89,7 @@ my-portfolio/
    ```
 
 4. **Open your browser**
-   Navigate to `http://localhost:5173`
+   Navigate to https://alokkumarsaw.netlify.app/
 
 ## Available Scripts
 
