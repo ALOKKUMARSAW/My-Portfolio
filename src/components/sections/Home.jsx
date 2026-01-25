@@ -6,7 +6,7 @@ const PROFILE_IMAGE = "/AlokSaw.png";
 const RESUME_LINK = "https://drive.google.com/uc?export=download&id=1SnVGW5qfsaTPkWyqRbAm3is5SfErBbt1"; 
 
 const Home = () => {
-  const roles = ["Java Developer", "Backend Developer", "Full Stack Developer", "Problem Solver"];
+  const roles = ["Java Developer", "Backend Developer", "Full Stack Developer", "Integration Engineer", "Problem Solver"];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [isFading, setIsFading] = useState(false);
 
@@ -43,8 +43,7 @@ const Home = () => {
               <span className="cursor">|</span>
             </div>
             <p className="hero-description">
-              Passionate about building scalable web applications with Java, Spring Boot, and React. 
-              I transform ideas into elegant, efficient solutions that deliver exceptional user experiences.
+              Passionate backend-focused full-stack developer with hands-on experience in Java, Spring Boot, React, and secure API development. I build scalable, production-ready applications with strong authentication, seamless integrations, and Generative AI capabilities to deliver smart, efficient, and user-centric solutions.
             </p>
             <div className="hero-actions">
               <a 

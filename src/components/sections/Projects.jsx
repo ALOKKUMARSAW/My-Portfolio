@@ -5,9 +5,18 @@ import "@styles/hero.css";
 const Projects = () => {
   const projects = [
     {
+      title: "Job Portal and Management System",
+      description: "Job Portal and Management System is a full-stack web application that connects job seekers and administrators. Users can register/login, browse and apply for jobs, while admins manage job postings and applications. The system sends email notifications to users upon successful job application submission.",
+      technologies: ["Java", "Spring MVC", "REST API", "Spring Data JPA (Hibernate)", "Spring Security (JWT Authentication)", "RESTful APIs", "MySQL", "JavaMailSender (SMTP)"],
+      image: "",
+      github: "https://github.com/ALOKKUMARSAW/job-portal-and-management-system",
+      live: "",
+      featured: true
+    },
+    {
       title: "Movie Watchlist Application",
       description: "Built with Java, Spring Boot, Thymeleaf, and H2 Database, this full-stack app lets users search, add, and view movies using the OMDB API. It features a responsive UI, fast in-memory storage, and efficient REST API integration for a smooth user experience.",
-      technologies: ["Java", "Spring Boot", "Thymeleaf", "H2 Database", "REST API"],
+      technologies: ["Java", "Spring Boot", "Thymeleaf", "H2 Database", "REST API","OMDBAPI Integration"],
       image: "/Movie.png",
       github: "https://github.com/ALOKKUMARSAW/MovieWatchList-App",
       live: "",
@@ -16,7 +25,7 @@ const Projects = () => {
     {
       title: "EduTrack-Pro",
       description: "EduTrack-Pro is built with Java, Spring Boot, and MySQL. It allows students to explore and enroll in courses, track their progress, and learn at their own pace. The platform also includes an admin panel to manage courses and users, ensuring a smooth and scalable learning experience.",
-      technologies: ["Java", "Spring Boot", "MySQL", "Thymeleaf", "Bootstrap"],
+      technologies: ["Java", "Spring MVC", "Rest API", "MySQL", "React"],
       image: "/EduTrack-Pro.png",
       github: "https://github.com/ALOKKUMARSAW/EduTech-Pro",
       live: "https://coursemanagementsystem5.netlify.app/",
@@ -25,7 +34,7 @@ const Projects = () => {
     {
       title: "Doctor Appointment System",
       description: "Built using Java, Spring Boot, and MySQL, this system allows users to view available slots, book appointments, and manage them efficiently. It features a responsive Thymeleaf interface and optimized REST APIs for a seamless experience across all user roles.",
-      technologies: ["Java", "Spring Boot", "MySQL", "Thymeleaf", "REST API"],
+      technologies: ["Java", "Spring MVC", "Spring Security", "Spring Data JPA", "MySQL", "REST API", "React"],
       image: "/Doctor.png",
       github: "https://github.com/ALOKKUMARSAW/DoctorAppoinmentSystem",
       live: "https://docterappointment.netlify.app/",
@@ -34,7 +43,7 @@ const Projects = () => {
     {
       title: "Employee Management System",
       description: "This Employee Management System is a full-stack application built with Java, Spring Boot, and MySQL. It allows users to manage employee records, including adding, updating, and deleting employee information. The system features a responsive UI built with Thymeleaf and provides RESTful APIs for efficient data handling.",
-      technologies: ["Java", "Spring Boot", "MySQL", "Thymeleaf", "REST API"],
+      technologies: ["Java", "Spring Boot", "MySQL", "REST API","Postman"],
       image: "/Employee.png",
       github: "https://github.com/ALOKKUMARSAW/Employee-Management-Sysrem",
       live: "",
@@ -43,7 +52,7 @@ const Projects = () => {
     {
       title: "Registration Login Authenticity",
       description: "This project is a full-stack application built with Java, Spring Boot, and MySQL. It allows users to register, log in, and manage their accounts securely. The system features a responsive UI built with Thymeleaf and provides RESTful APIs for efficient data handling.",
-      technologies: ["Java", "Spring Boot", "MySQL", "Thymeleaf", "Security"],
+      technologies: ["Java", "Spring Boot", "MySQL", "Thymeleaf", "Spring Security"],
       image: "/Registration.png",
       github: "https://github.com/ALOKKUMARSAW/registration-login-authenticity",
       live: "",

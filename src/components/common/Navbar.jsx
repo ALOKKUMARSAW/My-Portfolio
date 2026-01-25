@@ -81,28 +81,6 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            to="statistics"
-            smooth={true}
-            duration={500}
-            onClick={() => setNavActive(false)}
-            spy={true}
-          >
-            Statistics
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="resume"
-            smooth={true}
-            duration={500}
-            onClick={() => setNavActive(false)}
-            spy={true}
-          >
-            Resume
-          </Link>
-        </li>
-        <li>
-          <Link
             to="contact"
             smooth={true}
             duration={500}

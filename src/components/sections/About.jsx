@@ -16,9 +16,9 @@ const About = () => (
             <div className="about-card">
               <h3>Who I Am</h3>
               <p>
-                I'm a passionate Full Stack Developer with a strong foundation in Java, Spring Boot, and React. 
-                My journey in software development is driven by creating efficient, scalable, and user-friendly applications 
-                that solve real-world problems.
+                Passionate backend-focused full-stack developer with
+                hands-on experience in Java, Spring Boot, React, and secure API development. I build scalable, production-ready
+                applications with strong authentication, seamless integrations, and Generative AI capabilities to deliver smart, efficient, and user-centric solutions.
               </p>
               <p>
                 With a focus on clean code and best practices, I deliver high-quality solutions that exceed client expectations. 
@@ -75,7 +75,7 @@ const About = () => (
                     </div>
                   </div>
                   <div className="skill-item">
-                    <span>Spring Boot</span>
+                    <span>Spring Framework</span>
                     <div className="skill-bar">
                       <div className="skill-progress" style={{width: '85%'}}></div>
                     </div>

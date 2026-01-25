@@ -243,8 +243,8 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: white;
-  color: var(--text-secondary);
+  background: rgb(91, 142, 155);
+  color: var(--primary-color);
   border: 1px solid var(--border-color);
   text-decoration: none;
   transition: all 0.3s ease;
@@ -253,7 +253,7 @@
 
 .social-link:hover {
   background: var(--primary-color);
-  color: white;
+  color: rgba(97, 163, 189, 0.671);
   transform: translateY(-3px);
   box-shadow: var(--shadow-md);
 }
