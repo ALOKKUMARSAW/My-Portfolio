@@ -28,7 +28,7 @@ const Projects = () => {
       title: "Job Portal and Management System",
       description: "Job Portal and Management System is a full-stack web application that connects job seekers and administrators. Users can register/login, browse and apply for jobs, while admins manage job postings and applications. The system sends email notifications to users upon successful job application submission.",
       technologies: ["Java", "Spring MVC", "REST API", "Spring Data JPA (Hibernate)", "Spring Security (JWT Authentication)", "RESTful APIs", "MySQL", "JavaMailSender (SMTP)"],
-      image: "",
+      image: "Job App.png",
       github: "https://github.com/ALOKKUMARSAW/job-portal-and-management-system",
       live: "",
       featured: true
@@ -37,7 +37,7 @@ const Projects = () => {
       title: "Movie Watchlist Application",
       description: "Built with Java, Spring Boot, Thymeleaf, and H2 Database, this full-stack app lets users search, add, and view movies using the OMDB API. It features a responsive UI, fast in-memory storage, and efficient REST API integration for a smooth user experience.",
       technologies: ["Java", "Spring Boot", "Thymeleaf", "H2 Database", "REST API","OMDBAPI Integration"],
-      image: "/Movie.png",
+      image: "Movie App.jpg",
       github: "https://github.com/ALOKKUMARSAW/MovieWatchList-App",
       live: "",
       featured: true
@@ -73,7 +73,7 @@ const Projects = () => {
       title: "Registration Login Authenticity",
       description: "This project is a full-stack application built with Java, Spring Boot, and MySQL. It allows users to register, log in, and manage their accounts securely. The system features a responsive UI built with Thymeleaf and provides RESTful APIs for efficient data handling.",
       technologies: ["Java", "Spring Boot", "MySQL", "Thymeleaf", "Spring Security"],
-      image: "/Registration.png",
+      image: "/Login.png",
       github: "https://github.com/ALOKKUMARSAW/registration-login-authenticity",
       live: "",
       featured: false
