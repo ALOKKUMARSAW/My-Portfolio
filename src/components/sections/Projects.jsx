@@ -5,6 +5,26 @@ import "@styles/hero.css";
 const Projects = () => {
   const projects = [
     {
+      title: "AI Interview Platform",
+      description: "An AI-powered interview preparation platform that allows users to upload their resumes and take role-based mock interviews. The system analyzes resume skills, generates personalized technical and HR interview questions using AI, evaluates responses, provides instant feedback, and tracks interview performance to help candidates improve their job readiness.",
+      technologies: [
+    "Java",
+    "Spring Boot",
+    "Spring Security (JWT)",
+    "REST APIs",
+    "Spring Data JPA (Hibernate)",
+    "MySQL",
+    "React.js",
+    "OpenAI API / Gemini API",
+    "JavaMailSender",
+    "Git"
+  ],  
+      image: "Ai Interview Platform.png",
+      github: "https://github.com/ALOKKUMARSAW/ai-interview-platform",
+      live: "",
+      featured: true
+    },
+    {
       title: "Job Portal and Management System",
       description: "Job Portal and Management System is a full-stack web application that connects job seekers and administrators. Users can register/login, browse and apply for jobs, while admins manage job postings and applications. The system sends email notifications to users upon successful job application submission.",
       technologies: ["Java", "Spring MVC", "REST API", "Spring Data JPA (Hibernate)", "Spring Security (JWT Authentication)", "RESTful APIs", "MySQL", "JavaMailSender (SMTP)"],

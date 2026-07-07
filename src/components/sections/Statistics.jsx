@@ -8,11 +8,11 @@ const Statistics = () => {
         <h2 className="section-title">Statistics</h2>
         <div className="statistics-grid">
           <div className="stat-card">
-            <h3 className="stat-number">15+</h3>
+            <h3 className="stat-number">25+</h3>
             <p className="stat-label">Projects Completed</p>
           </div>
           <div className="stat-card">
-            <h3 className="stat-number">20+</h3>
+            <h3 className="stat-number">50+</h3>
             <p className="stat-label">Technologies</p>
           </div>
           <div className="stat-card">

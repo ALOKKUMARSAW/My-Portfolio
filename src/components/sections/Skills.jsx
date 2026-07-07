@@ -8,58 +8,58 @@ const Skills = () => {
   const skillsData = {
     backend: [
       { name: "Java", level: 90, category: "Programming Language", icon: "fab fa-java" },
-      { name: "Spring Boot", level: 85, category: "Framework", icon: "fas fa-leaf" },
-      { name: "Spring MVC", level: 80, category: "Framework", icon: "fas fa-spring" },
-      { name: "Hibernate", level: 75, category: "ORM", icon: "fas fa-database" },
-      { name: "JPA", level: 75, category: "ORM", icon: "fas fa-layer-group" },
-      { name: "RESTful APIs", level: 85, category: "API Development", icon: "fas fa-plug" },
-      { name: "Microservices", level: 70, category: "Architecture", icon: "fas fa-cubes" },
-      { name: "Node.js", level: 65, category: "Runtime", icon: "fab fa-node-js" }
+      { name: "Spring Boot", level: 90, category: "Framework", icon: "fas fa-leaf" },
+      { name: "Spring MVC", level: 90, category: "Framework", icon: "fas fa-spring" },
+      { name: "Hibernate", level: 85, category: "ORM", icon: "fas fa-database" },
+      { name: "JPA", level: 85, category: "ORM", icon: "fas fa-layer-group" },
+      { name: "RESTful APIs", level: 90, category: "API Development", icon: "fas fa-plug" },
+      { name: "Microservices", level: 85, category: "Architecture", icon: "fas fa-cubes" },
+      { name: "Node.js", level: 85, category: "Runtime", icon: "fab fa-node-js" }
     ],
     frontend: [
-      { name: "React", level: 75, category: "Framework", icon: "fab fa-react" },
-      { name: "JavaScript", level: 80, category: "Language", icon: "fab fa-js" },
-      { name: "TypeScript", level: 60, category: "Language", icon: "fas fa-code" },
+      { name: "React", level: 85, category: "Framework", icon: "fab fa-react" },
+      { name: "JavaScript", level: 85, category: "Language", icon: "fab fa-js" },
+      { name: "TypeScript", level: 85, category: "Language", icon: "fas fa-code" },
       { name: "HTML5", level: 95, category: "Markup", icon: "fab fa-html5" },
-      { name: "CSS3", level: 85, category: "Styling", icon: "fab fa-css3-alt" },
-      { name: "Tailwind CSS", level: 70, category: "Framework", icon: "fas fa-wind" },
-      { name: "Bootstrap", level: 80, category: "Framework", icon: "fab fa-bootstrap" },
-      { name: "Thymeleaf", level: 75, category: "Template Engine", icon: "fas fa-file-code" }
+      { name: "CSS3", level: 90, category: "Styling", icon: "fab fa-css3-alt" },
+      { name: "Tailwind CSS", level: 90, category: "Framework", icon: "fas fa-wind" },
+      { name: "Bootstrap", level: 90, category: "Framework", icon: "fab fa-bootstrap" },
+      { name: "Thymeleaf", level: 95, category: "Template Engine", icon: "fas fa-file-code" }
     ],
     database: [
-      { name: "MySQL", level: 85, category: "Relational DB", icon: "fas fa-database" },
-      { name: "PostgreSQL", level: 70, category: "Relational DB", icon: "fas fa-table" },
-      { name: "MongoDB", level: 75, category: "NoSQL DB", icon: "fas fa-leaf" },
-      { name: "Redis", level: 65, category: "Cache DB", icon: "fas fa-memory" },
-      { name: "H2 Database", level: 70, category: "In-Memory DB", icon: "fas fa-bolt" }
+      { name: "MySQL", level: 95, category: "Relational DB", icon: "fas fa-database" },
+      { name: "PostgreSQL", level: 90, category: "Relational DB", icon: "fas fa-table" },
+      { name: "MongoDB", level: 95, category: "NoSQL DB", icon: "fas fa-leaf" },
+      { name: "Redis", level: 90, category: "Cache DB", icon: "fas fa-memory" },
+      { name: "H2 Database", level: 100, category: "In-Memory DB", icon: "fas fa-bolt" }
     ],
     tools: [
-      { name: "Git", level: 85, category: "Version Control", icon: "fab fa-git-alt" },
-      { name: "Docker", level: 75, category: "Containerization", icon: "fab fa-docker" },
-      { name: "Maven", level: 80, category: "Build Tool", icon: "fas fa-cube" },
-      { name: "Gradle", level: 70, category: "Build Tool", icon: "fas fa-tools" },
-      { name: "Postman", level: 85, category: "API Testing", icon: "fas fa-paper-plane" },
-      { name: "Jenkins", level: 65, category: "CI/CD", icon: "fas fa-infinity" },
-      { name: "AWS", level: 60, category: "Cloud Platform", icon: "fab fa-aws" },
-      { name: "Linux", level: 70, category: "Operating System", icon: "fab fa-linux" }
+      { name: "Git", level: 95, category: "Version Control", icon: "fab fa-git-alt" },
+      { name: "Docker", level: 90, category: "Containerization", icon: "fab fa-docker" },
+      { name: "Maven", level: 95, category: "Build Tool", icon: "fas fa-cube" },
+      { name: "Gradle", level: 90, category: "Build Tool", icon: "fas fa-tools" },
+      { name: "Postman", level: 95, category: "API Testing", icon: "fas fa-paper-plane" },
+      { name: "Jenkins", level: 85, category: "CI/CD", icon: "fas fa-infinity" },
+      { name: "AWS", level: 85, category: "Cloud Platform", icon: "fab fa-aws" },
+      { name: "Linux", level: 85, category: "Operating System", icon: "fab fa-linux" }
     ],
     concepts: [
       { name: "OOP Principles", level: 90, category: "Programming", icon: "fas fa-shapes" },
-      { name: "Design Patterns", level: 75, category: "Architecture", icon: "fas fa-puzzle-piece" },
-      { name: "Agile/Scrum", level: 80, category: "Methodology", icon: "fas fa-users" },
-      { name: "Test-Driven Development", level: 70, category: "Methodology", icon: "fas fa-vial" },
-      { name: "Code Review", level: 85, category: "Process", icon: "fas fa-search" },
-      { name: "Performance Optimization", level: 75, category: "Engineering", icon: "fas fa-tachometer-alt" }
+      { name: "Design Patterns", level: 85, category: "Architecture", icon: "fas fa-puzzle-piece" },
+      { name: "Agile/Scrum", level: 85, category: "Methodology", icon: "fas fa-users" },
+      { name: "Test-Driven Development", level: 85, category: "Methodology", icon: "fas fa-vial" },
+      { name: "Code Review", level: 90, category: "Process", icon: "fas fa-search" },
+      { name: "Performance Optimization", level: 90, category: "Engineering", icon: "fas fa-tachometer-alt" }
     ],
     ai: [
-      { name: "API Integration", level: 85, category: "Development", icon: "fas fa-plug" },
-      { name: "AI Integration", level: 70, category: "Artificial Intelligence", icon: "fas fa-brain" },
-      { name: "Gen AI", level: 65, category: "Generative AI", icon: "fas fa-robot" },
-      { name: "OpenAI APIs", level: 70, category: "AI Services", icon: "fas fa-cloud" },
-      { name: "Prompt Engineering", level: 75, category: "AI Development", icon: "fas fa-comment-dots" },
-      { name: "Machine Learning", level: 60, category: "AI/ML", icon: "fas fa-chart-line" },
-      { name: "NLP Integration", level: 65, category: "AI Processing", icon: "fas fa-language" },
-      { name: "ChatGPT Integration", level: 75, category: "AI Services", icon: "fas fa-comments" }
+      { name: "API Integration", level: 95, category: "Development", icon: "fas fa-plug" },
+      { name: "AI Integration", level: 90, category: "Artificial Intelligence", icon: "fas fa-brain" },
+      { name: "Gen AI", level: 90, category: "Generative AI", icon: "fas fa-robot" },
+      { name: "OpenAI APIs", level: 95, category: "AI Services", icon: "fas fa-cloud" },
+      { name: "Prompt Engineering", level: 95, category: "AI Development", icon: "fas fa-comment-dots" },
+      { name: "Machine Learning", level: 90, category: "AI/ML", icon: "fas fa-chart-line" },
+      { name: "NLP Integration", level: 85, category: "AI Processing", icon: "fas fa-language" },
+      { name: "ChatGPT Integration", level: 95, category: "AI Services", icon: "fas fa-comments" }
     ]
   };
 
@@ -230,11 +230,11 @@ const Skills = () => {
         <div className="skills-summary">
           <div className="summary-stats">
             <div className="stat-item">
-              <div className="stat-number">20+</div>
+              <div className="stat-number">50+</div>
               <div className="stat-label">Technologies</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">15+</div>
+              <div className="stat-number">35+</div>
               <div className="stat-label">Projects Completed</div>
             </div>
             <div className="stat-item">
